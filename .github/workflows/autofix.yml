@@ -20,12 +20,5 @@ jobs:
           anthropic-api-key: ${{ secrets.ANTHROPIC_API_KEY }}
           enable-error-log: "true"
           enable-insights: "true"
-          # Test framework to run.
-          # Options: "pytest" | "vitest" | "jest"
-          # Default: "pytest"
           test-framework: "pytest"
-
-          # Source language of your project.
-          # Options: "python" | "typescript" | "javascript"
-          # Default: "python"
           language: "python"
