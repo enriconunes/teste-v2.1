@@ -1,0 +1,11 @@
+# Claude AutoFix temporary files
+.report.json
+claude_comment.md
+claude-patches/
+claude-log-entries.json
+claude-insights.md
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
